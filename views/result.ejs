@@ -1,0 +1,27 @@
+<%- include("header") -%>
+
+<title>Result</title>
+<link rel="stylesheet" href="css/result.css">
+</head>
+
+<body>
+    <Header>
+        <h1>Search result for "<%= animeName %>"</h1>
+    </Header>
+    <main>
+        <img src=<%= imgSrc %> alt="background cover">
+        <div>
+            <h2><%= title %></h2>
+            <p><span>Duration- </span><%= startDate %> - <%= endDate %></p>
+            <p><span>Status- </span><%= status %></p>
+            <p><span>Rating- </span><%= rating %></p>
+            <p><span>Episode Count- </span><%= epCount %></p>
+            <p><span>Description- </span><br><%= desp %></p>
+
+            <!-- go back not working -->
+            <a href="/">Go Back</a>
+            <!-- <button type="submit">Go Back</button> -->
+        </div>
+    </main>
+
+<%- include("footer") -%>

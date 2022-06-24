@@ -1,0 +1,42 @@
+body {
+    text-align: left;
+    padding: 2rem;
+    background-color: darkseagreen;
+}
+
+main div {
+    border: solid azure;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 15px 0;
+}
+
+span {
+    font-weight: 700;
+}
+
+a {
+    color: black;
+    border: rgb(22, 22, 22) solid;
+    border-radius: 7px;
+
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: rgb(22, 22, 22);
+}
