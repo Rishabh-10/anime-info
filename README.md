@@ -1,5 +1,5 @@
 <h1>Anime Info web App</h1>
-<p>This web app uses Kitsu API for the information of various animes that the user searches for, if anyone want to learn more about Kitsu API <a href="https://hummingbird-me.github.io/api-docs/" target="_blank">click here.</a></p>
+<p>This web app uses Kitsu API for the information of various animes that the user searches for, if you want to learn more about Kitsu API <a href="https://hummingbird-me.github.io/api-docs/" target="_blank">click here.</a></p>
 
 <h3>Built With</h3>
 <ul>
